@@ -52,14 +52,21 @@
 #Задайте список из N элементов, заполненных числами из промежутка [-N, N]. 
 # Найдите произведение элементов на указанных позициях. 
 # Позиции хранятся в файле file.txt в одной строке одно число.
-n = int(input('Введите число: '))
-num_list = []
-for j in range(-n,n+1):
-        num_list.append(j)
-print(num_list)
-sum = 0
-data = open('1.txt' , 'r')
-for line in data:
-    sum = sum + num_list[int(line)]
-data.close()
-print(sum)
+# n = int(input('Введите число: '))
+# num_list = []
+# for j in range(-n,n+1):
+#         num_list.append(j)
+# print(num_list)
+# sum = 0
+# data = open('1.txt' , 'r')
+# for line in data:
+#     sum = sum + num_list[int(line)]
+# data.close()
+# print(sum)
+
+#___________________5__________________________
+#Реализуйте алгоритм перемешивания списка.
+# import random
+# my_list = [1,2,3,4,5,6,7,8,9,10]
+# random.shuffle(my_list)
+# print(my_list)
