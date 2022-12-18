@@ -68,5 +68,18 @@
 #Реализуйте алгоритм перемешивания списка.
 # import random
 # my_list = [1,2,3,4,5,6,7,8,9,10]
+# print(f"{my_list} - исходный список")
 # random.shuffle(my_list)
 # print(my_list)
+# #первое решение
+# def my_rand (any_list):
+#     temp = 0
+#     temp_ind = 0
+#     for i in range(0, len(any_list)-1):
+#         temp_ind = random.randint(0,len(any_list)-1)
+#         temp = any_list[i]
+#         any_list[i] = any_list[temp_ind]
+#         any_list[temp_ind] = temp
+# my_rand(my_list)
+# print(my_list)
+# #второе решение
